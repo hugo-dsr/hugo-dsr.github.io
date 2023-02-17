@@ -41,7 +41,6 @@ img{
     font-style: normal;
     font-size: 20px;
     margin: 0;
-    cursor: url("home_page/cursor.png"), default;
 }
 
 /*6 vacances*/h1.violet{
@@ -210,4 +209,48 @@ h3{
 .rose:hover{
     color: #e71dcc;
     transform: scale(1.5);
+}
+
+/* page contact */
+.contact{
+    font-family: "area-normal", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align:sub;
+    padding-bottom: 27px;
+}
+.decor{
+    text-decoration: none;
+    color: currentColor;
+    font-family: "doublebass", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.decor:hover{
+    cursor:url(home_page/curseur.png), pointer;
+}
+
+/* page à propos */
+.apropos{
+    font-family: "area-normal", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.titre{
+    font-family: "doublebass", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0;
 }
